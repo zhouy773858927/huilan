@@ -3,6 +3,7 @@
 2019.7.20：完成test_baidu测试流程
 2019.7.22更新：添加utils-file_reader的yml配置模块;utils-log日志模块
 2019.7.24更新：添加util-file_reader的excel配置模块;untils-HTMLTestRunner测试报告模块;utils-mail邮件发送模块
+2019.7.25更新：添加utils-client接口层；utils-generator数据生成器
 """
 import os
 import time
