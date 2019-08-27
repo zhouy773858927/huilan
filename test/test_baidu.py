@@ -15,10 +15,11 @@ from utils.log import logger
 from utils.file_reader import ExcelReader
 from utils.HTMLTestRunner import HTMLTestRunner
 from utils.mail import Email
+
 import json
 
 class TestBaiDu(unittest.TestCase):
-    URL = Config().get('URL')
+    URL = Config().get('URL_BaiDu')
     excel = DATA_PATH + r'\baidu.xlsx'
     locator_kw = (By.ID, 'kw')
     locator_su = (By.ID, 'su')
@@ -44,7 +45,6 @@ class TestBaiDu(unittest.TestCase):
                 links = driver.find_element(*self.locator_result).text
                 logger.info(links)
                 self.sub_tearDown()
-
 
 
 if __name__ == '__main__':

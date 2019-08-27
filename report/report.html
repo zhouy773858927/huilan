@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>轻量级测试框架-百度测试</title>
+    <title>轻量级测试框架-小象优品测试</title>
     <meta name="generator" content="HTMLTestRunner 0.9.1"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
@@ -199,13 +199,13 @@
     <div id="div_base">
         
     <div class='page-header'>
-        <h1>轻量级测试框架-百度测试</h1>
-    <p class='attribute'><strong>开始时间:</strong> 2019-07-25 15:04:05</p>
-<p class='attribute'><strong>运行时长:</strong> 0:00:31.272718</p>
-<p class='attribute'><strong>状态:</strong> 通过 4</p>
+        <h1>轻量级测试框架-小象优品测试</h1>
+    <p class='attribute'><strong>开始时间:</strong> 2019-08-27 16:21:41</p>
+<p class='attribute'><strong>运行时长:</strong> 0:01:10.375997</p>
+<p class='attribute'><strong>状态:</strong> 错误 1</p>
 
     </div>
-    <div style="float: left;width:50%;"><p class='description'>百度用例</p></div>
+    <div style="float: left;width:50%;"><p class='description'>调试用例</p></div>
     <div id="chart" style="width:50%;height:400px;float:left;"></div>
 
         
@@ -233,85 +233,40 @@
             <td>查看</td>
         </tr>
         
-    <tr class='passClass'>
-        <td>TestBaiDu</td>
-        <td>4</td>
-        <td>4</td>
+    <tr class='errorClass'>
+        <td>TestXxYP</td>
+        <td>1</td>
         <td>0</td>
         <td>0</td>
-        <td><a href="javascript:showClassDetail('c1',4)">详情</a></td>
+        <td>1</td>
+        <td><a href="javascript:showClassDetail('c1',1)">详情</a></td>
     </tr>
 
-<tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_search_0</div></td>
+<tr id='ft1.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_xxyp_sp</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
-        通过</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        错误</a>
 
-    <div id='div_pt1.1' class="popup_window">
-        <pre>pt1.1: [{'search': 'selenium灰蓝'}, {'search': 'python selenium'}, {'search': 'pyqt5'}, {'search': 'unittest'}]
+    <div id='div_ft1.1' class="popup_window">
+        <pre>ft1.1: https://ystest.xiaoxiangyoupin.com/bsys/business-system-web/login.html
+Traceback (most recent call last):
+  File "D:/huilan/test/test_xxyp.py", line 328, in test_xxyp_sp
+    driver.find_element_by_id('orderFaHuoBtn').click()
+  File "D:\Python34\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Python34\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\Python34\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Python34\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="orderFaHuoBtn"]"}
+  (Session info: chrome=76.0.3809.100)
 
-SubTestCase Pass:
-test_search_0 (__main__.TestBaiDu) (data={'search': 'selenium灰蓝'})</pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr id='pt1.2' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_search_0</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
-        通过</a>
-
-    <div id='div_pt1.2' class="popup_window">
-        <pre>pt1.2: [{'search': 'selenium灰蓝'}, {'search': 'python selenium'}, {'search': 'pyqt5'}, {'search': 'unittest'}]
-
-SubTestCase Pass:
-test_search_0 (__main__.TestBaiDu) (data={'search': 'python selenium'})</pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr id='pt1.3' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_search_0</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
-        通过</a>
-
-    <div id='div_pt1.3' class="popup_window">
-        <pre>pt1.3: [{'search': 'selenium灰蓝'}, {'search': 'python selenium'}, {'search': 'pyqt5'}, {'search': 'unittest'}]
-
-SubTestCase Pass:
-test_search_0 (__main__.TestBaiDu) (data={'search': 'pyqt5'})</pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr id='pt1.4' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_search_0</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')" >
-        通过</a>
-
-    <div id='div_pt1.4' class="popup_window">
-        <pre>pt1.4: [{'search': 'selenium灰蓝'}, {'search': 'python selenium'}, {'search': 'pyqt5'}, {'search': 'unittest'}]
-
-SubTestCase Pass:
-test_search_0 (__main__.TestBaiDu) (data={'search': 'unittest'})</pre>
+</pre>
     </div>
     <!--css div popup end-->
 
@@ -320,10 +275,10 @@ test_search_0 (__main__.TestBaiDu) (data={'search': 'unittest'})</pre>
 
         <tr id='total_row'>
             <td>总计</td>
-            <td>4</td>
-            <td>4</td>
+            <td>1</td>
             <td>0</td>
             <td>0</td>
+            <td>1</td>
             <td>&nbsp;</td>
         </tr>
     </table>
@@ -357,9 +312,9 @@ test_search_0 (__main__.TestBaiDu) (data={'search': 'unittest'})</pre>
                     radius : '60%',
                     center: ['50%', '60%'],
                     data:[
-                        {value:4, name:'通过'},
+                        {value:0, name:'通过'},
                         {value:0, name:'失败'},
-                        {value:0, name:'错误'}
+                        {value:1, name:'错误'}
                     ],
                     itemStyle: {
                         emphasis: {
