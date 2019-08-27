@@ -1,1 +1,3 @@
-URL: http://www.baidu.com
+URL_dev: http://dev.xiaoxiangyoupin.com:1111/bsys/business-system-web/login.html
+URL_YSTEST: https://ystest.xiaoxiangyoupin.com/bsys/business-system-web/login.html
+URL_BaiDu: https://www.baidu.com/
